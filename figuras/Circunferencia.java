@@ -26,7 +26,7 @@ public class Circunferencia {
         System.out.println(area);
     }
 
-    public boolean esIgual(boolean conDecimales, Circunferencia otro) {
+    public boolean esIgual(Circunferencia otro, boolean conDecimales) {
         double radio1 = this.radio;
         double radio2 = otro.getRadio();
         if (conDecimales) {
